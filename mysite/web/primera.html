@@ -1,0 +1,33 @@
+{% load static %}
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Arte</title>
+  <link rel="stylesheet" href='{% static "css/primera.css" %}' type="text/css">
+</head>
+
+<body>
+  <h1>Galería de Arte</h1>
+  <div class="gallery">
+    <div class="artwork">
+      <img src='{% static "/imagenes/primera/creacion.png" %}' alt="Pintura 1">
+      <p>La creación de Adán, Miguel Ángel (1508-1512)</p>
+    </div>
+    <div class="artwork">
+      <img src='{% static "/imagenes/primera/mona.jpg" %}' alt="Pintura 2">
+      <p>La Mona Lisa, Leonardo da Vinci (1503-1506, 1513-1516)</p>
+    </div>
+    <div class="artwork">
+      <img src='{% static "/imagenes/primera/venus.jpg" %}' alt="Pintura 3">
+      <p>El nacimiento de Venus, Sandro Botticelli (1484-1485)</p>
+    </div>
+    <div class="artwork">
+      <img src='{% static "/imagenes/primera/cuarta.jpg" %}' alt="Pintura 4">
+      <p>Las meninas o La familia de Felipe IV, Diego Velázquez (1656)</p>
+    </div>
+  </div>
+</body>
+
+</html>

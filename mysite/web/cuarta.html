@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes de Ensueño</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href='{% static "css/cuarta.css" %}'>
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Viajes de Ensueño</h1>
+    </header>
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="destination">
+                    <img src='{% static "imagenes/cuarta/campeche.jpg" %}' alt="carmen city" class="img-fluid">
+                    <div class="caption">Ciudad del Carmen</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="destination">
+                    <img src='{% static "imagenes/cuarta/veracruz.jpg" %}' alt="veracruz" class="img-fluid">
+                    <div class="caption">Veracruz, Ver</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="destination">
+                    <img src='{% static "imagenes/cuarta/chiapas.png" %}' alt="chiapas" class="img-fluid">
+                    <div class="caption">Chiapas</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="destination">
+                    <img src='{% static "imagenes/cuarta/monterrey.jpg" %}' alt="monterrey" class="img-fluid">
+                    <div class="caption">Monterrey, NL</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

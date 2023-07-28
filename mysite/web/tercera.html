@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <link rel="stylesheet" href='{% static "css/tercera.css" %}'>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurante delicioso</h1>
+        <nav>
+            <ul>
+                <li><a href="#entrantes">Entrantes</a></li>
+                <li><a href="#platos-principales">Platos principales</a></li>
+                <li><a href="#postres">Postres</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="entrantes">
+            <h2>Entrantes</h2>
+            <img src='{% static "imagenes/tercera/entrantes.jpeg" %}' alt="Entrantes">
+            <p>Deliciosos entrantes que ofrecemos.</p>
+        </section>
+
+        <section id="platos-principales">
+            <h2>Platos principales</h2>
+            <img src='{% static "imagenes/tercera/principales.jpg" %}' alt="Platos principales">
+            <p>Nuestros exquisitos platos principales.</p>
+        </section>
+
+        <section id="postres">
+            <h2>Postres</h2>
+            <img src='{% static "imagenes/tercera/postres.jpg" %}' alt="Postres">
+            <p>Nuestros tentadores postres.</p>
+        </section>
+
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <img src='{% static "imagenes/tercera/elissires.png" %}' alt="Bebidas">
+            <p>Nuestras refrescantes bebidas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Restaurante delicioso. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

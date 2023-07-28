@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras al Aire Libre</title>
+    <link rel="stylesheet" href='{% static "css/segunda.css" %}'>
+</head>
+
+<body>
+    <header>
+        <h1>Aventuras al Aire Libre</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Senderismo</h2>
+            <img src='{% static "imagenes/segunda/senderismo.jpg" %}' alt="Senderismo">
+            <p>Disfruta de emocionantes rutas de senderismo en medio de la naturaleza.</p>
+            <button>Ver más</button>
+        </section>
+        <section>
+            <h2>Rafting</h2>
+            <img src='{% static "imagenes/segunda/rafting.jpg" %}' alt="Rafting">
+            <p>Descubre la adrenalina recorriendo rápidos en nuestras emocionantes excursiones de rafting.</p>
+            <button>Ver más</button>
+        </section>
+        <section>
+            <h2>Escalada</h2>
+            <img src='{% static "imagenes/segunda/escalada.jpeg" %}' alt="Escalada">
+            <p>Supera tus límites escalando las montañas más desafiantes con la ayuda de nuestros expertos.</p>
+            <button>Ver más</button>
+        </section>
+        <section>
+            <h2>Ciclismo</h2>
+            <img src='{% static "imagenes/segunda/ciclismo.jpg" %}' alt="Ciclismo">
+            <p>Recorre paisajes espectaculares en nuestras rutas de ciclismo diseñadas para todos los niveles.</p>
+            <button>Ver más</button>
+        </section>
+    </main>
+</body>
+
+</html>
